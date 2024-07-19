@@ -1,14 +1,16 @@
-// Assign a variable to a string value
-var myString = "Hello, this is a message from JavaScript!";
-
-// Use the document.write() method to display the variable
-document.write(myString);
-
+// This will display an alert box with a message
 window.alert("This is an alert from JavaScript!");
 
-// Write an expression
-var result = 5 + 3;
+// Declare two variables with string values
+var Sent1 = "This is the beginning of the string";
+var Sent2 = " and this is the end of the string";
 
-// Display the result of the expression
-document.write("The result of the expression 5 + 3 is: " + result);
+// Concatenate the two string variables
+var completeSentence = Sent1 + Sent2;
 
+// Use document.write() to display the concatenated string
+document.write(completeSentence);
+
+// Write an expression and display the result
+var result = 5 + 3; // Expression: addition of 5 and 3
+document.write("<br>The result of the expression 5 + 3 is: " + result);
