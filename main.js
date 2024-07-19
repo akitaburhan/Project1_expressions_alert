@@ -5,3 +5,10 @@ var myString = "Hello, this is a message from JavaScript!";
 document.write(myString);
 
 window.alert("This is an alert from JavaScript!");
+
+// Write an expression
+var result = 5 + 3;
+
+// Display the result of the expression
+document.write("The result of the expression 5 + 3 is: " + result);
+
